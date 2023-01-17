@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+{% with var1=x var2=x %}
+  {% if var1 is var2 %}
+    <h1>YES</h1>
+  {% else %}
+    <h1>NO</h1>
+  {% endif %}
+{% endwith %}
+
+<p>The x variable is created in views.py, and both var1 and var2 points to x.</p>
+
+</body>
+</html>       
