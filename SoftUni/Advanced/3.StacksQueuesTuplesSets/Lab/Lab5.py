@@ -1,0 +1,45 @@
+# Santa's Present Factory
+from collections import deque
+
+
+materials = deque(int(x) for x in input().split())
+magic_levels = deque(int(x) for x in input().split())
+
+crafted = []
+
+presents = {
+    150: "Doll",
+    250: "Wooden train",
+    300: "Teddy bear",
+    400: "Bicycle"
+}
+
+
+while magic_levels and materials:
+    material = materials.pop() if magic_levels[0] or not materials[0] else 0
+    magic = magic_levels.popleft() if material or not magic_levels[0] else 0
+
+    if not magic:
+        continue
+
+    product = material * magic
+
+    if presents.get(product):
+        crafted.append(presents[product])
+    elif product < 0:
+        materials.append(material + magic)
+    elif product > 0:
+        materials.append(material+15)
+
+if {"Doll", "Wooden train"}.issubset(crafted) or {"Teddy bear", "Bicycle"}.issuperset(crafted):
+    print("The presents are crafted! Merry Christmas!")
+else:
+    print("No presents this Christmas!")
+
+if materials:
+    print(f"Materials left: {', '.join([str(x) for x in materials][::-1])}")
+
+if magic_levels:
+    print(f"Magic left: {', '.join(str(x) for x in magic_levels)}")
+
+[print(f"{toy}: {crafted.count(toy)}") for toy in sorted(set(crafted))]
