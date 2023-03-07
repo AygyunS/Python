@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Lab/1.Food/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Lab/2.SingleInheritance/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Lab/3.MultipleInheritance/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Lab/4.MultilevelInheritance.py/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Lab/5.HierarchicalInheritance/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Exerc/1.Person/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Exerc/3.PlayersAndMonsters/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Exerc/4.NeedForSpeed/project" />
+            <path value="file://$PROJECT_DIR$/7.Inheritance/Exerc/4.NeedForSpeed/project-2" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>
