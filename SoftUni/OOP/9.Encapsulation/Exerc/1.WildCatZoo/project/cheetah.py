@@ -1,4 +1,4 @@
-from project.animal import Animal
+from project.animals.animal import Animal
 
 class Cheetah(Animal):
     DEFAULT_MONEY_FOR_CARE = 60

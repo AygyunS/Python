@@ -2,6 +2,10 @@ from abc import ABC, abstractmethod
 
 
 class Vehicle(ABC):
+    def __init__(self, fuel_quantity, fuel_consumption):
+        self.fuel_quantity = fuel_quantity
+        self.fuel_consumption = fuel_consumption
+
     @abstractmethod
     def drive(self, distance):
         pass
@@ -12,47 +16,31 @@ class Vehicle(ABC):
 
 
 class Car(Vehicle):
-    def __init__(self, fuel_quantity, fuel_consumption):
-        self.__fuel_quantity = fuel_quantity
-        self.__fuel_consumption = fuel_consumption
+    air_condition_consumption = 0.9
 
     def drive(self, distance):
-        fuel_consumed = (self.__fuel_consumption + 0.9) * distance
-        if fuel_consumed <= self.__fuel_quantity:
-            self.__fuel_quantity -= fuel_consumed
-            return True
-        return False
+        consumption = (self.fuel_consumption + self.air_condition_consumption) * distance
+        if consumption <= self.fuel_quantity:
+            self.fuel_quantity -= consumption
 
     def refuel(self, fuel):
-        self.__fuel_quantity += fuel
-
-    @property
-    def fuel_quantity(self):
-        return self.__fuel_quantity
+        self.fuel_quantity += fuel
 
 
 class Truck(Vehicle):
-    def __init__(self, fuel_quantity, fuel_consumption):
-        self.__fuel_quantity = fuel_quantity
-        self.__fuel_consumption = fuel_consumption
+    air_condition_consumption = 1.6
 
     def drive(self, distance):
-        fuel_consumed = (self.__fuel_consumption + 1.6) * distance
-        if fuel_consumed <= self.__fuel_quantity:
-            self.__fuel_quantity -= fuel_consumed
-            return True
-        return False
+        consumption = (self.fuel_consumption + self.air_condition_consumption) * distance
+        if consumption <= self.fuel_quantity:
+            self.fuel_quantity -= consumption
 
     def refuel(self, fuel):
-        self.__fuel_quantity += fuel * 0.95
-
-    @property
-    def fuel_quantity(self):
-        return self.__fuel_quantity
+        self.fuel_quantity += fuel * 0.95
 
 
-truck = Truck(100, 15)
-truck.drive(5)
-print(truck.fuel_quantity)
-truck.refuel(50)
-print(truck.fuel_quantity)
+
+bmw = Car(60, 5)
+print(bmw.fuel_quantity)
+bmw.drive(10)
+print(bmw.fuel_quantity)

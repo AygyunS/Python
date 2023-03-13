@@ -1,5 +1,5 @@
 from typing import List
-from project.animal import Animal
+from project.animals.animal import Animal
 from project.worker import Worker
 
 
