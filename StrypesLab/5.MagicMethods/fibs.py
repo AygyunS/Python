@@ -1,0 +1,25 @@
+class Fibs:
+    def __init__(self):
+        self.a = 0
+        self.b = 1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        f = self.a
+        self.a, self.b = self.b, self.a + self.b
+        return f
+
+
+def test_func(n):
+    fibs = Fibs()
+    st = []
+    for i in range(n):
+        st.append(next(fibs))
+    print(st)
+
+test_func(20)
+
+
+

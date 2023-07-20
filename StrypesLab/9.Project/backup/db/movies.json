@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "title": "The Shawshank Redemption",
+            "author": "Frank Darabont",
+            "year": "1994",
+            "genre": "drama",
+            "rating": "9.3"
+        },
+        {
+            "title": "The Godfather",
+            "author": "Francis Ford Coppola",
+            "year": "1972",
+            "genre": "crime",
+            "rating": "9.2"
+        },
+        {
+            "title": "The Godfather: Part II",
+            "author": "Francis Ford Coppola",
+            "year": "1974",
+            "genre": "crime",
+            "rating": "9.0"
+        },
+        {
+            "title": "The Dark Knight",
+            "author": "Christopher Nolan",
+            "year": "2008",
+            "genre": "action",
+            "rating": "9.0"
+        },
+        {
+            "title": "12 Angry Men",
+            "author": "Sidney Lumet",
+            "year": "1957",
+            "genre": "drama",
+            "rating": "8.9"
+        }
+    ]
+}

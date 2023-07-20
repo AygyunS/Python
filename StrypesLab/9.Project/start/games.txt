@@ -1,0 +1,7 @@
+The Legend of Zelda: Ocarina of Time,Nintendo EAD,1998,action-adventure,9.3
+Half-Life,Valve Corporation,1998,first-person shooter,9.0
+Super Mario Bros.,Nintendo,1985,platformer,8.2
+Minecraft,Mojang Studios,2011,sandbox,8.2
+Grand Theft Auto V,Rockstar North,2013,action-adventure,8.7
+d,a,b,c,v
+d,d,s,a,a

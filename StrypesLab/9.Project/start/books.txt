@@ -1,0 +1,7 @@
+To Kill a Mockingbird,Harper Lee,1960,classic,4.3
+1984,George Orwell,1949,classic,4.2
+The Catcher in the Rye,J.D. Salinger,1951,classic,4.1
+The Great Gatsby,F. Scott Fitzgerald,1925,classic,3.9
+One Hundred Years of Solitude,Gabriel Garcia Marquez,1967,magic realism,4.1
+d,a,b,c,v
+d,d,s,a,a

@@ -1,0 +1,273 @@
+{
+    "Movies": [
+        {
+            "title": "The Shawshank Redemption",
+            "author": "Frank Darabont",
+            "year": "1994"
+        },
+        {
+            "title": "The Godfather",
+            "author": "Francis Ford Coppola",
+            "year": "1972"
+        },
+        {
+            "title": "The Dark Knight",
+            "author": "Christopher Nolan",
+            "year": "2008"
+        },
+        {
+            "title": "The Godfather: Part II",
+            "author": "Francis Ford Coppola",
+            "year": "1974"
+        },
+        {
+            "title": "The Lord of the Rings: The Return of the King",
+            "author": "Peter Jackson",
+            "year": "2003"
+        },
+        {
+            "title": "Pulp Fiction",
+            "author": "Quentin Tarantino",
+            "year": "1994"
+        },
+        {
+            "title": "The Good, the Bad and the Ugly",
+            "author": "Sergio Leone",
+            "year": "1966"
+        },
+        {
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "author": "Peter Jackson",
+            "year": "2001"
+        },
+        {
+            "title": "Fight Club",
+            "author": "David Fincher",
+            "year": "1999"
+        },
+        {
+            "title": "Forrest Gump",
+            "author": "Robert Zemeckis",
+            "year": "1994"
+        }
+    ],
+    "Video games": [
+        {
+            "title": "The Witcher 3: Wild Hunt",
+            "author": "CD Projekt Red",
+            "year": "2015"
+        },
+        {
+            "title": "Red Dead Redemption 2",
+            "author": "Rockstar Games",
+            "year": "2018"
+        },
+        {
+            "title": "Mass Effect 2",
+            "author": "BioWare",
+            "year": "2010"
+        },
+        {
+            "title": "The Last of Us",
+            "author": "Naughty Dog",
+            "year": "2013"
+        },
+        {
+            "title": "The Witcher 3: Wild Hunt",
+            "author": "CD Projekt Red",
+            "year": "2015"
+        },
+        {
+            "title": "The Elder Scrolls V: Skyrim",
+            "author": "Bethesda Game Studios",
+            "year": "2011"
+        },
+        {
+            "title": "Red Dead Redemption 2",
+            "author": "Rockstar Games",
+            "year": "2018"
+        },
+        {
+            "title": "Mass Effect 2",
+            "author": "BioWare",
+            "year": "2010"
+        },
+        {
+            "title": "Star Wars: Knights of the Old Republic",
+            "author": "BioWare",
+            "year": "2003"
+        }
+    ],
+    "Books": [
+        {
+            "title": "The Lord of the Rings",
+            "author": "J. R. R. Tolkien",
+            "year": "1954"
+        },
+        {
+            "title": "The Hobbit",
+            "author": "J. R. R. Tolkien",
+            "year": "1937"
+        },
+        {
+            "title": "The Silmarillion",
+            "author": "J. R. R. Tolkien",
+            "year": "1977"
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": "1813"
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "year": "1960"
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "author": "J. D. Salinger",
+            "year": "1951"
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": "1925"
+        },
+        {
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "year": "1932"
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "year": "1949"
+        },
+        {
+            "title": "Animal Farm",
+            "author": "George Orwell",
+            "year": "1945"
+        },
+        {
+            "title": "The Picture of Dorian Gray",
+            "author": "Oscar Wilde",
+            "year": "1890"
+        },
+        {
+            "title": "One Hundred Years of Solitude",
+            "author": "Gabriel Garcia Marquez",
+            "year": "1967"
+        },
+        {
+            "title": "The Adventures of Sherlock Holmes",
+            "author": "Arthur Conan Doyle",
+            "year": "1892"
+        },
+        {
+            "title": "The Road",
+            "author": "Cormac McCarthy",
+            "year": "2006"
+        },
+        {
+            "title": "The Picture of Dorian Gray",
+            "author": "Oscar Wilde",
+            "year": "1890"
+        },
+        {
+            "title": "The Sound and the Fury",
+            "author": "William Faulkner",
+            "year": "1929"
+        },
+        {
+            "title": "Heart of Darkness",
+            "author": "Joseph Conrad",
+            "year": "1899"
+        },
+        {
+            "title": "The Count of Monte Cristo",
+            "author": "Alexandre Dumas",
+            "year": "1844"
+        },
+        {
+            "title": "The Brothers Karamazov",
+            "author": "Fyodor Dostoevsky",
+            "year": "1880"
+        },
+        {
+            "title": "The Stranger",
+            "author": "Albert Camus",
+            "year": "1942"
+        },
+        {
+            "title": "The Grapes of Wrath",
+            "author": "John Steinbeck",
+            "year": "1939"
+        },
+        {
+            "title": "The Old Man and the Sea",
+            "author": "Ernest Hemingway",
+            "year": "1952"
+        },
+        {
+            "title": "The Name of the Rose",
+            "author": "Umberto Eco",
+            "year": "1980"
+        },
+        {
+            "title": "The Three Musketeers",
+            "author": "Alexandre Dumas",
+            "year": "1844"
+        },
+        {
+            "title": "The Wind-Up Bird Chronicle",
+            "author": "Haruki Murakami",
+            "year": "1994"
+        },
+        {
+            "title": "The Crying of Lot 49",
+            "author": "Thomas Pynchon",
+            "year": "1966"
+        },
+        {
+            "title": "Slaughterhouse-Five",
+            "author": "Kurt Vonnegut",
+            "year": "1969"
+        },
+        {
+            "title": "The Book Thief",
+            "author": "Markus Zusak",
+            "year": "2005"
+        },
+        {
+            "title": "The Adventures of Huckleberry Finn",
+            "author": "Mark Twain",
+            "year": "1884"
+        },
+        {
+            "title": "The Big Sleep",
+            "author": "Raymond Chandler",
+            "year": "1939"
+        },
+        {
+            "title": "The Maltese Falcon",
+            "author": "Dashiell Hammett",
+            "year": "1930"
+        },
+        {
+            "title": "The Fall of the House of Usher",
+            "author": "Edgar Allan Poe",
+            "year": "1839"
+        },
+        {
+            "title": "The Raven",
+            "author": "Edgar Allan Poe",
+            "year": "1845"
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "author": "J. D. Salinger",
+            "year": "1951"
+        }
+    ]
+}

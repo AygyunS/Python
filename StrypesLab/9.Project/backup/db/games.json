@@ -1,0 +1,39 @@
+{
+    "items": [
+        {
+            "title": "The Legend of Zelda: Ocarina of Time",
+            "author": "Nintendo EAD",
+            "year": "1998",
+            "genre": "action-adventure",
+            "rating": "9.3"
+        },
+        {
+            "title": "Half-Life",
+            "author": "Valve Corporation",
+            "year": "1998",
+            "genre": "first-person shooter",
+            "rating": "9.0"
+        },
+        {
+            "title": "Super Mario Bros.",
+            "author": "Nintendo",
+            "year": "1985",
+            "genre": "platformer",
+            "rating": "8.2"
+        },
+        {
+            "title": "Minecraft",
+            "author": "Mojang Studios",
+            "year": "2011",
+            "genre": "sandbox",
+            "rating": "8.2"
+        },
+        {
+            "title": "Grand Theft Auto V",
+            "author": "Rockstar North",
+            "year": "2013",
+            "genre": "action-adventure",
+            "rating": "8.7"
+        }
+    ]
+}

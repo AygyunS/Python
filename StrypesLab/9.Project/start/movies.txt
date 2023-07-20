@@ -1,0 +1,7 @@
+The Shawshank Redemption,Frank Darabont,1994,drama,9.3
+The Godfather,Francis Ford Coppola,1972,crime,9.2
+The Godfather: Part II,Francis Ford Coppola,1974,crime,9.0
+The Dark Knight,Christopher Nolan,2008,action,9.0
+12 Angry Men,Sidney Lumet,1957,drama,8.9
+d,a,b,c,v
+d,d,s,a,a
